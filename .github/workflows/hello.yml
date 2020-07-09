@@ -4,6 +4,6 @@ on: push
 jobs:
   build:
     name: Greeting
-  run-on: ubuntu-latest
-  steps:
-    - run: echo "Hello world!"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world!"
