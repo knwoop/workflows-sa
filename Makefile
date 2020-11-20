@@ -1,0 +1,3 @@
+.PHONY: test
+test:
+	go test $(args) -race -cover ./...
